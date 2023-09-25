@@ -1,0 +1,270 @@
+@media (min-width:992px) and (max-width:1199px){
+	.mh_about_img{
+		display:block;
+	}
+	.mh_navigation_menu ul li a{
+		padding:13px 19px;
+	}
+	.mh_contact_service{
+		padding-bottom: 15px;
+	}
+}
+
+@media (min-width:768px) and (max-width:991px){
+	.bg_main ul li {
+		width: 100%;
+	}
+	.mh_top_haeder_logo{
+		text-align: center;
+	}	
+	.mh_top_haeder_logo img{
+		display: inline-block;
+	}
+	.mh_top_header_contact{
+		text-align: center;
+	}
+	.mh_top_header_contact ul{
+		float: none;
+		display:inline-block;
+	}
+	.mh_top_header_contact ul li span{
+		text-align: left;
+	}
+	.mh_navigation_menu{
+		text-align: center;
+	}
+	.mh_navigation_menu ul{
+		display: inline-block;
+	    float: none;
+	    width: auto;
+	}
+	.mh_navigation_app_button{
+		text-align: center;
+	}
+	.mh_navigation_app_button .mh_app_button{
+		float: none;
+	}
+	
+
+	.mh_footer_content{
+		text-align: center;
+	    margin-bottom: 20px;
+	    margin-top: 15px;
+	}
+	.mh_footer_icons{
+		text-align: center;
+		width: 100%
+	}
+}
+@media (min-width: 768px) and (max-width: 1200px){
+	.mh_navigation_menu {
+	    padding: 17px 0;
+	}
+	.bg_main ul {
+	    padding: 0 40px;
+	}
+}
+@media(max-width:991px) and (orientation:landscape){
+	.modal-dialog{
+		width: 100%;
+		height: 100%;
+	}
+}
+@media (max-width:767px){
+	.mh_top_haeder_logo{
+	text-align: center;
+	    margin-bottom: 0;
+	    position: fixed;
+	    left: 0;
+	    top: 15px;
+	    width: 100px;
+	}	
+	.mh_top_haeder_logo img{
+		display: inline-block;
+	}
+	.mh_navigation_app_button .mh_app_button{
+		float: none;
+	}
+	.mh_navigation_menu{
+		width: 100%;
+		height: 100vh;
+		z-index: 2;
+	    position: fixed;
+	    left: 0px;
+	    top: 0px;
+	    bottom: 0px;
+	    background: url(../images/burger_background.jpg);
+	    background-size: cover;
+	    padding: 112px 0;
+	    transform: translateX(-100%);
+	    transition: all 0.3s;
+	}
+	.mh_navigation_menu:before{
+		content: '';
+		height: 3px;
+		width: 100%;
+		position: absolute;
+		top: 116px;
+		background: rgba(226, 226, 226, 0.4);
+	}
+	.menu_fixed{
+	    background: rgba(255, 255, 255, 1);
+	}
+	.mh_menu_btn {
+	    display: block;
+	    float: right;
+	    position: absolute;
+	    top: 34px;
+	    right: 10px;
+	    border: none;
+	    width: 50px;
+	    height: 50px;
+	    font-size: 16px;
+	    color: #067B75;
+	    background-color: transparent;
+	    border-radius: 3px;
+	}
+	.no-dsp{
+		display: block;
+	}
+	.menu_fixed{
+		position:initial;
+	}
+	.mh_menu_btn i{
+		font-size: 36px;
+	}
+	.mh_navigation_menu ul li{
+		width:100%;
+	}
+	.mh_navigation_menu ul li a{
+		color: white;
+	}
+
+	.mh_slider_bg {
+	    padding: 370px 0px 115px;
+	}
+	.mh_footer_content{
+	    text-align: center;
+	    margin-bottom: 20px;
+	    margin-top: 15px;
+	}
+	.mh_footer_icons{
+		text-align: center;
+		width: 100%
+	}
+	.mh_service_heading p {
+	    font-size: 18px;
+	    width: 100%;
+	}
+	.mh_insurance_wrapper {
+	    float: left;
+	    width: 100%;
+	    background: url(../images/mob_banner.jpg);
+	    background-repeat: no-repeat;
+	    background-size: cover;
+		padding: 95px 0px;
+	}
+	.bg_main {
+	    background: url(../images/mob_footer.png);
+	    background-size: contain;
+	    background-repeat: no-repeat;
+	    background-position: 50% 80%;
+	}
+	.mh_team_caption img {
+	    padding: 0;
+	    width: 80px !important;
+	}
+	.mh_slider_bg {
+	    background: url(../images/mob_bg.png);
+	    background-repeat: no-repeat;
+	    background-position: bottom;
+	    background-size: cover;
+	}
+	.list_cosial{
+		display: none;
+	}
+	.mh_header_wrapper {
+	    float: left;
+	    width: 100%;
+	    position: fixed;
+	    z-index: 111;
+	    height: 111px;
+	    background: rgba(255, 255, 255, 0.4);
+	}
+	.mh_navigation_app_button {
+	     float: left;
+	    width: 100%;
+	    position: fixed;
+	    right: 0;
+	    top: 0;
+	    z-index: 9999;
+	}
+	.mh_slider_bg_content h1 {
+	    font-size: 36px;
+	}
+	.menu_fixed {
+	    padding: 56px 0px;
+	}
+	.menu_fixed .mh_navigation_menu ul li a {
+	    color: #ffffff;
+	    width: 100%;
+	}
+	.mh_navigation_menu ul {
+	    text-align: center;
+	    margin: 30px auto 20px;
+	    float: left;
+	    width: 100%;
+	}
+	.mh_navigation_menu ul li a {
+	    width: 100%;
+	}
+	.bg_main ul {
+	    float: left;
+	    width: 100%;
+	    padding: 0;
+	}
+	.bg_main ul li {
+	    float: none;
+	   }
+    .mh_slider_bg_content p {
+	    font-size: 16px;
+	    width: 100%;
+	}
+	.mh_box_wrapper {
+	    padding: 50px 0px 60px 0px;
+	}
+	.mh_service_wrapper {
+	    padding: 50px 0px 20px 0px;
+	}
+	.mh_heading {
+	    margin-bottom: 20px;
+	}
+	.mh_heading h2 {
+	    font-size: 26px;
+	}
+	.bg_main ul li {
+	    padding: 0 15px 5px 15px;
+	}
+    .bg_main .phone {
+	    margin: 20px 0 35px 0;
+	}
+}
+
+@media (max-width: 480px){
+	.mh_slider_bg_content .blue_button{
+		margin-bottom: 20px;
+	}
+	.mh_insurance_button{
+		text-align: center;
+	}
+	.mh_insurance_button span{
+		width: 100%;
+	    display: block;
+	    margin: 10px 0px 10px 0px;
+	}
+}
+@media (max-width: 480px){
+	.mh_slider_bg {
+	    padding: 260px 0px 115px;
+	}
+}
